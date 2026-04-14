@@ -10,9 +10,9 @@
         }
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(145deg, #e0eafc 0%, #cfdef3 100%);
             margin: 0;
             min-height: 100vh;
-            background: linear-gradient(145deg, #e0eafc 0%, #cfdef3 100%);
             display: flex;
             justify-content: center;
             align-items: center;
@@ -69,6 +69,7 @@
             display: flex;
             gap: 20px;
             justify-content: center;
+            flex-wrap: wrap;
         }
         .gender-btn {
             width: auto;
@@ -102,6 +103,7 @@
         }
         .selector-group select {
             flex: 1;
+            min-width: 120px;
         }
         .selector-group span {
             font-size: 28px;
@@ -168,6 +170,9 @@
             }
             .gender-btn {
                 padding: 10px 20px;
+            }
+            .selector-group select {
+                min-width: 100px;
             }
         }
     </style>
